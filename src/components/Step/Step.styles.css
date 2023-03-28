@@ -1,17 +1,18 @@
+.section-step {
+  grid-column: 1/-1;
+}
+
 .step {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .step-box {
   display: flex;
-  gap: 3rem;
 }
 
-.step-img-box {
-}
 .step-img {
-  width: 100%;
+  width: 80%;
 }
 
 .step-text-box {
@@ -29,7 +30,7 @@
 .step-heading-link:link,
 .step-heading-link:visited {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   transition: all 0.25s;
 }
 
@@ -44,5 +45,6 @@
 }
 
 .step-description {
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 2;
 }

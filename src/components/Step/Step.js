@@ -1,3 +1,6 @@
+import retroImg from "../../images/image-retro-pcs.jpg";
+import laptopImg from "../../images/image-top-laptops.jpg";
+import gameGrowthImg from "../../images/image-gaming-growth.jpg";
 import "./Step.styles.css";
 
 const Step = () => {
@@ -7,11 +10,7 @@ const Step = () => {
         {/* STEP 01 */}
         <div class="step-box">
           <div class="step-img-box">
-            <img
-              src="/images/image-retro-pcs.jpg"
-              class="step-img"
-              alt="image retro pcs"
-            />
+            <img src={retroImg} class="step-img" alt="image retro pcs" />
           </div>
 
           <div class="step-text-box">
@@ -29,17 +28,13 @@ const Step = () => {
         {/* STEP 02 */}
         <div class="step-box">
           <div class="step-img-box">
-            <img
-              src="/images/image-top-laptops.jpg"
-              class="step-img"
-              alt="image top laptops"
-            />
+            <img src={laptopImg} class="step-img" alt="image top laptops" />
           </div>
 
           <div class="step-text-box">
             <p class="step-number">02</p>
             <a href="#step2" className="step-heading-link heading-tertiary">
-              Top 10 Laptops of 2022{" "}
+              Top 10 Laptops of 2022
             </a>
 
             <p class="step-description">
@@ -52,7 +47,7 @@ const Step = () => {
         <div class="step-box">
           <div class="step-img-box">
             <img
-              src="/images/image-gaming-growth.jpg"
+              src={gameGrowthImg}
               class="step-img"
               alt="image gaming growth"
             />

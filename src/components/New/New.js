@@ -3,7 +3,7 @@ import "./New.styles.css";
 const New = () => {
   return (
     <section className="section-new">
-      <div class="container">
+      <div class="new-news">
         <span class="subheading">New</span>
         {/* NEW 1 */}
         <div className="new-text-box">

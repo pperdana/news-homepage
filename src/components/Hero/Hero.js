@@ -1,14 +1,11 @@
+import "./Hero.styles.css";
 const Hero = () => {
   return (
     <section className="section-hero">
       <div className="hero">
         <div className="hero-img-box">
           <picture>
-            <img
-              className="hero-img"
-              src="./images/image-web-3-desktop.jpg"
-              alt="hero"
-            />
+            <div className="hero-img"></div>
           </picture>
         </div>
 
